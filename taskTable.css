@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+
+
+}
+main{
+  
+  
+}
+div{
+
+}
+table{
+    border: 1px solid;
+    background-color: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(to right, #6758CD, #A253C6);
+}
+table ,td{
+    padding: 15px;
+    text-align: center;
+    width: 1000px;
+
+}
+thead{
+    background-color: black ;
+    color: white;
+}
+th{
+    padding: 15px;
+  
+}
+tr:nth-child(even){
+    background-color: #e3e2e2;
+}
+th:nth-child(odd) {text-align: left ;
+
+}
